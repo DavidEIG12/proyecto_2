@@ -4,7 +4,7 @@ selector: 'app-contador',
 templateUrl: './contador.component.html',
 styleUrls: ['./contador.component.css']
 })
-export class ContadorComponent {
+export class Contador {
 numero: number = 0;
 incrementar() {
 this.numero++;
